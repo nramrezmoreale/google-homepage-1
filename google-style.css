@@ -1,0 +1,14 @@
+.bar-items {
+    display: inline;
+    font-family: arial, sans-serif;
+}
+
+#logo {
+    padding-top: 100px;
+    padding-bottom: 1000px;
+}
+
+#logo #searchbar {
+    text-align: -webkit-center;
+
+}
