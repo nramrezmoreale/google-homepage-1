@@ -2,31 +2,59 @@
 <html>
 <head>
     <title>Google</title>
-    <link rel="stylesheet" href="google-style.css" type="text/css/">
+    <link href="./css/style.css" rel="stylesheet" type="text/css"/>
 </head>
-
+<body>
 <!--This is the navigational bar for Google Homepage-->
 <div id="navbar">
-    <nav>
-        <ul>
-            <a class="bar-items" href="https://about.google/?fg=1&utm_source=google-GB&utm_medium=referral&utm_campaign=hp-header" target="_blank"><li>About</li></a>
-            <a class="bar-items" href="https://store.google.com/GB/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-GB" target="_blank"><li>Store</li></a>
-            <li>Gmail</li>
-            <li>Images</li>
-        </ul>
+    <nav class="topbar">
+        <div class="top-left">
+            <a class="bar-items" href="https://about.google/?fg=1&utm_source=google-GB&utm_medium=referral&utm_campaign=hp-header" target="_blank">About</a>
+            <a class="bar-items" href="https://store.google.com/GB/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-GB" target="_blank">Store</a>    
+        </div>
+        <div class="top-right">
+            <a class="bar-items" href="https://mail.google.com/mail/?tab=wm&authuser=0&ogbl" target="_blank">Gmail</a>   
+            <a class="bar-items" href="https://www.google.co.uk/imghp?hl=en&tab=wi&authuser=0&ogbl" target="_blank">Images</a> 
+            <a id="app" href="https://about.google/intl/en/products/?tab=wh0"></a>
+            <a id="sign-in-button" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign In</a>
+        </div>
     </nav>
 </div>
 
 <!--This is Google logo-->
-<div id="logo">
-    <img alt="Google" height="92" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+<div class="logo">
+    <img alt="Google" height="92" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" class="logo-image">
 </div>
 
 <!--This is the Search bar-->
-<div id="searchbar">
-    <input type="text">
+<div class="searchbarbox">
+    <span class="glass"></span>
+    <input class="searchbar" type="text">
+    <span class="voice-button"></span>
 </div>
 
+<!--These are the Search buttons-->
+<div class="submit-button">
+    <input type="submit" class="button" value="Google Search">
+    <input type="submit" class="button" value="I'm Feeling Lucky">
+</div>
+</body>
 <!--This is the footer-->
-
+<div class="footer">
+    <div id="ftopbar"> 
+        United Kingdom
+    </div>
+    <nav class="fbotbar">
+        <div class="footer-left">
+            <a class="bar-items" href="https://www.google.com/intl/en_uk/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" target="_blank">Advertising</a>
+            <a class="bar-items" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1" target="_blank">Business</a>
+            <a class="bar-items" href="https://google.com/search/howsearchworks/?fg=1" target="_blank">How Search Works</a>
+        </div>
+        <div class="footer-right">
+            <a class="bar-items" href="https://policies.google.com/privacy?fg=1" target="_blank">Privacy</a>
+            <a class="bar-items" href="https://policies.google.com/terms?fg=1" target="_blank">Terms</a>
+            <a class="bar-items" href="https://www.google.com/preferences?hl=en" target="_blank">Settings</a>
+        </div>
+    </nav>
+</div>
 </html>
